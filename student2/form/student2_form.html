@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Comment Form</title>
+        <script src="student2_form.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="student2_form.css">
+    </head>
+    <body>
+        <div id="zoomBtn">
+
+            
+        <!-- menu button -->
+
+    <div class="menuBtn">
+        <p>Menu</p>
+        <img src="menu.png" alt="menu" width="25px" height="20px">
+    </div>
+    
+
+        
+        <!-- menu Bar -->
+
+        <nav class="main">
+            <img src="T2.png" alt="travel logo" class="logo">
+            <ul class="main-menu">
+                <li><a href="../main/student2_main.html">Home</a></li>
+                <li><a href="../../student1/Student1_Product/Student1_Product.html">Products</a></li>
+                <li><a href="../../student3/student3_quiz/student3_quiz_home.html">Quiz Hub</a></li>
+                <li><a href="../../student1/Student1_Product/Student1_Product.html#cart-section">Cart</a></li>
+                <li><a href="../../student4/Gallery/Normal/gallerySourceOne.html">Gallery</a></li>
+                <li><a href="../../student4/SiteMap/sitemapSource.html">Site Map</a></li>
+                <li><a href="../../student3/student3_team/student3_team.html">Team</a></li>
+            </ul>
+
+            <ul class="menuRgt">
+                <p>Zoom</p>
+                <button id="bigger" class ="zoom" onclick="bigFont()"> + </button>
+                <button id="smaller" class ="zoom" onclick="smallFont()"> - </button>
+                
+            </ul>
+        </nav>
+
+        <div class="container">
+
+<!-- form -->
+
+<h2 class="formReg">Rate Our Site Now</h2>
+
+    <section>
+      <div class="topbar">
+          <form name="myForm"  onsubmit="return formValidation()" method="post">
+            <label for="uname" class="uname">Your Name</label><br>
+            <input type="text" id="uname" name="uname" class="tft" ><br>
+            <label for="umail">Email</label><br>
+            <input type="email" id="umail" name="umail" class="tft"><br>
+            <label for="ucom" >Comment</label><br>
+            <input type="text" id="ucom" name="ucom" class="tft"><br>
+            <label for="rate">Rate Us</label><br>
+            <select name="rate" id="rate" class="rtu">
+                <option value=""></option>
+                <option value="fair">Fair</option>
+                <option value="good">Good</option>
+                <option value="vGood">Very Good</option>
+                <option value="exclnt">Excelent</option>
+            </select><br>
+            <button class="button1" id="entry" type="submit" value="submit"  onclick="myFunction()">Submit</button>
+            <button class="button2" id="reset" type="reset" value="reset" >Reset</button>
+        </form>
+      </div>
+      </section>
+    </div>
+</div>
+    </div>
+    
+           <div class="footer">
+    <button onclick="backtopFunction()" id="topbtn" class="buttonbt"><img src='arw.png' width="16px" height="16px" >  Back to Top</button></i>
+    <div class="in-footer">
+        <div class="footer-items">
+            <h2>Quick Access</h2>
+            <div class="border"></div>
+            <ul>
+                <a href="../main/student2_main.html"><li>Home</li></a>
+                <a href="../../student1/Student1_Product/Student1_Product.html"><li>Products</li></a>
+                <a href="../../student1/Student1_Product/Student1_Product.html#cart-section"><li>Cart</li></a>
+                <a href="../../student3/student3_quiz/student3_quiz_home.html"><li>Quiz Challenge</li></a>
+                <li><a href="../../student4/Gallery/Normal/gallerySourceOne.html">Gallery</a></li>
+                <a href="../../student3/student3_team/student3_team.html"><li>Team</li></a>
+            </ul>
+        </div>
+        <div class="footer-items">
+            <h2>Developer Info</h2>
+            <div class="border"></div>
+            <ul>
+                <a href="../../student3/student3_team/student3_team.html"><li>Members Info</li></a>
+                <a href="../editor/page-editor.html"><li>Page Editor</li></a>
+                <a href="../../student4/SiteMap/sitemapSource.html"><li>Site Map</li></a>
+                <a href="#"><li>Web Reports</li></a>
+            </ul>
+        </div>
+        <div class="footer-items">
+            <h2>Contact Us</h2>
+            <div class="border"></div>
+            <div class="social">
+                <a href="https://www.facebook.com/travelmania.quiz.3"><img src='fb.png' width="42px" height="40px" ></a>
+                <a href="https://www.linkedin.com/login"><img src='lin.png' width="42px" height="40px" ></a>
+                <a href="https://www.instagram.com/travelmaniatravelling/"><img src='ins.png' width="42px" height="40px" ></a>
+                <a href="https://twitter.com/login?lang=en"><img src='tw.png' width="42px" height="40px" ></a>
+                <a href="https://web.whatsapp.com/"><img src='wha.png' width="42px" height="40px" ></a>
+            </div>
+        </div>
+
+    <div class="footer-items">
+        <h2>Support</h2>
+        <div class="border"></div>
+        <div class="social-media">
+            <ul>
+            <a href="student2_form.html"><li> Rate Us Now</li></a>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+            Copyright &copy; travelmania.co   2020. All right reserved.
+    </div>
+</div>
+    </body>
+</html>
