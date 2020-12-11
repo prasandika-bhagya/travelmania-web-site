@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="studentTwo.css">
+    <title>Travelmaina</title>
+    <style>
+    /* Sitemap */
+svg {
+  align-content:center;
+}
+
+
+#main-title {
+  font-size: 20px;
+}
+
+  #main-title:hover {
+      font-size: 22px;
+  }
+
+
+
+a {
+  font-size: 14px;
+}
+
+  a:hover {
+      font-size: 18px;
+  }
+
+text {
+  color: #FFFFFF;
+}
+    </style>
+</head>
+
+
+<body>
+    <div id="zoomBtn">
+    <!-- menu button -->
+
+    <div class="menuBtn">
+        <p>Menu</p>
+        <img src="menu.png" alt="menu" width="25px" height="20px">
+    </div>
+
+
+        <!-- menu Bar -->
+
+        <nav class="main">
+            <img src="T2.png" alt="travel logo" class="logo">
+            <ul class="main-menu">
+                <li><a href="../../student2/main/student2_main.html">Home</a></li>
+                <li><a href="../../student1/Student1_Product/Student1_Product.html">Products</a></li>
+                <li><a href="../../student3/student3_quiz/student3_quiz_home.html">Quiz Hub</a></li>
+                <li><a href="../../student1/Student1_Product/Student1_Product.html#cart-section">Cart</a></li>
+                <li><a href="../../student4/Gallery/Normal/gallerySourceOne.html">Gallery</a></li>
+                <li><a href="../../student4/SiteMap/sitemapSource.html">Site Map</a></li>
+                <li><a href="../../student3/student3_team/student3_team.html">Team</a></li>
+            </ul>
+
+<ul class="menuRgt">
+    <p>Zoom</p>
+    <button class="zoom" id="bigger" onclick="bigFont()"> + </button>
+    <button class="zoom" id="smaller" onclick="smallFont()"> - </button>
+
+</ul>
+
+        </nav>
+
+
+
+        <div class="container">
+            <svg width="1000" height="400">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#ff00cc;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#333399;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <defs>
+                    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#00d2ff;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#928dab;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <defs>
+                    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#ed4264;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#ffedbc;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+
+                <g id="line">
+                    <polyline points="225,170,225,335" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="350,170,350,335" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="125,100,875,100" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="500,70,500,100" style="fill:none;stroke:black;stroke-width:1" />
+
+                    <polyline points="125,100,125,120" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="250,100,250,120" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="375,100,375,120" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="500,100,500,120" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="625,100,625,120" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="750,100,750,120" style="fill:none;stroke:black;stroke-width:1" />
+                    <polyline points="875,100,875,120" style="fill:none;stroke:black;stroke-width:1" />
+                </g>
+
+
+                <g id="circle">
+                    <circle cx="125" cy="120" r="2" stroke-width="3" fill="black" />
+                    <circle cx="250" cy="120" r="2" stroke-width="3" fill="black" />
+                    <circle cx="375" cy="120" r="2" stroke-width="3" fill="black" />
+                    <circle cx="500" cy="120" r="2" stroke-width="3" fill="black" />
+                    <circle cx="625" cy="120" r="2" stroke-width="3" fill="black" />
+                    <circle cx="750" cy="120" r="2" stroke-width="3" fill="black" />
+                    <circle cx="875" cy="120" r="2" stroke-width="3" fill="black" />
+
+                    <circle cx="350" cy="200" r="2" stroke-width="3" fill="black" />
+                    <circle cx="350" cy="240" r="2" stroke-width="3" fill="black" />
+                    <circle cx="350" cy="280" r="2" stroke-width="3" fill="black" />
+                    <circle cx="350" cy="320" r="2" stroke-width="3" fill="black" />
+
+                    <circle cx="225" cy="200" r="2" stroke-width="3" fill="black" />
+                    <circle cx="225" cy="240" r="2" stroke-width="3" fill="black" />
+                    <circle cx="225" cy="280" r="2" stroke-width="3" fill="black" />
+                    <circle cx="225" cy="320" r="2" stroke-width="3" fill="black" />
+                </g>
+
+                <g id="main-title">
+                    <rect x="425" y="20" rx="10" ry="10" width="150" height="50" fill="url(#grad1)" />
+                    <text x="450" y="55" fill="white" font-family="Hello Santtiny">Travelmania</text>
+                </g>
+
+                <g id="link-title">
+                    <rect x="75" y="120" rx="10" ry="10" width="100" height="50" fill="url(#grad2)" />
+                    <text x="100" y="148" 25 font-family="Arbutus Slab"><a href="../../student2/main/student2_main.html">Home</a></text>
+
+                    <rect x="200" y="120" rx="10" ry="10" width="100" height="50" fill="url(#grad2)" />
+                    <text x="220" y="148" font-family="Arbutus Slab"><a href="../../student1/Student1_Product/Student1_Product.html">Product</a></text>
+
+                    <rect x="325" y="120" rx="10" ry="10" width="100" height="50" fill="url(#grad2)" />
+                    <text x="345" y="148" font-family="Arbutus Slab"><a href="../../student2/main/student2_main.html">Location</a></text>
+
+                    <rect x="450" y="120" rx="10" ry="10" width="100" height="50" fill="url(#grad2)" />
+                    <text x="470" y="148" font-family="Arbutus Slab"><a href="../Gallery/Normal/gallerySourceOne.html">Gallery</a></text>
+
+                    <rect x="575" y="120" rx="10" ry="10" width="100" height="50" fill="url(#grad2)" />
+                    <text x="595" y="148" font-family="Arbutus Slab"><a href="../../student3/student3_team/student3_team.html">Contact</a></text>
+
+                    <rect x="700" y="120" rx="10" ry="10" width="100" height="50" fill="url(#grad2)" />
+                    <text x="730" y="148" font-family="Arbutus Slab"><a href="../../student3/student3_quiz/student3_quiz_home.html">Q&A</a></text>
+
+                    <rect x="825" y="120" rx="10" ry="10" width="100" height="50" fill="url(#grad2)" />
+                    <text x="855" y="148" font-family="Arbutus Slab"><a href="../../student2/main/student2_main.html">More</a></text>
+                </g>
+
+                <g id="sub-title-location">
+                    <rect x="340" y="200" rx="10" ry="10" width="150" height="25" fill="url(#grad3)" />
+                    <text x="350" y="220" font-family="Arbutus Slab"><a href="../../student2/main/student2_main.html">Sigiriya</a></text>
+
+                    <rect x="340" y="240" rx="10" ry="10" width="150" height="25" fill="url(#grad3)" />
+                    <text x="350" y="260" font-family="Arbutus Slab"><a href="../../student2/main/student2_main.html">Nine Arch</a></text>
+
+                    <rect x="340" y="280" rx="10" ry="10" width="150" height="25" fill="url(#grad3)" />
+                    <text x="350" y="300" font-family="Arbutus Slab"><a href="../../student2/main/student2_main.html">Temple of tooth Relic</a></text>
+
+                    <rect x="340" y="320" rx="10" ry="10" width="150" height="25" fill="url(#grad3)" />
+                    <text x="350" y="340" font-family="Arbutus Slab"><a href="../../student2/main/student2_main.html">Hikkaduwa Beach</a></text>
+                </g>
+
+                <g id="sub-title-product">
+                    <rect x="215" y="200" rx="10" ry="10" width="100" height="25" fill="url(#grad3)" />
+                    <text x="225" y="220" font-family="Arbutus Slab"><a href="../../student1/Student1_Product/Student1_Product.html">Mask</a></text>
+
+                    <rect x="215" y="240" rx="10" ry="10" width="100" height="25" fill="url(#grad3)" />
+                    <text x="225" y="260" font-family="Arbutus Slab"><a href="../../student1/Student1_Product/Student1_Product.html">Tshirt</a></text>
+
+                    <rect x="215" y="280" rx="10" ry="10" width="100" height="25" fill="url(#grad3)" />
+                    <text x="225" y="300" font-family="Arbutus Slab"><a href="../../student1/Student1_Product/Student1_Product.html">Necklace</a></text>
+
+                    <rect x="215" y="320" rx="10" ry="10" width="100" height="25" fill="url(#grad3)" />
+                    <text x="225" y="340" font-family="Arbutus Slab"><a href="../../student1/Student1_Product/Student1_Product.html">Others</a></text>
+                </g>
+
+            </svg>
+
+        </div>
+
+
+<!-- footer -->
+
+<div class="footer">
+    <button onclick="backtopFunction()" id="topbtn" class="buttonbt"><img src='arw.png' width="16px" height="16px" >  Back to Top</button></i>
+    <div class="in-footer">
+        <div class="footer-items">
+            <h2>Quick Access</h2>
+            <div class="border"></div>
+            <ul>
+                <a href="../../student2/main/student2_main.html"><li>Home</li></a>
+                <a href="../../student1/Student1_Product/Student1_Product.html"><li>Products</li></a>
+                <a href="../../student1/Student1_Product/Student1_Product.html#cart-section"><li>Cart</li></a>
+                <a href="../../student3/student3_quiz/student3_quiz_home.html"><li>Quiz Challenge</li></a>
+                <a href="../../student4/Gallery/Normal/gallerySourceOne.html"><li>Gallery</li></a>
+                <a href="../../student3/student3_team/student3_team.html"><li>Team</li></a>
+
+            </ul>
+        </div>
+        <div class="footer-items">
+            <h2>Developer Info</h2>
+            <div class="border"></div>
+            <ul>
+                <a href="../../student3/student3_team/student3_team.html"><li>Members info</li></a>
+                <a href="../editor/page-editor.html"><li>Page Editor</li></a>
+                <a href="../../student4/SiteMap/sitemapSource.html"><li>Site Map</li></a>
+                <a href="#"><li>Web Reports</li></a>
+            </ul>
+        </div>
+        <div class="footer-items">
+            <h2>Contact Us</h2>
+            <div class="border"></div>
+            <div class="social">
+                <a href="https://www.facebook.com/travelmania.quiz.3"><img src='fb.png' width="42px" height="40px" ></a>
+                <a href="https://www.linkedin.com/login"><img src='lin.png' width="42px" height="40px" ></a>
+                <a href="https://www.instagram.com/travelmaniatravelling/"><img src='ins.png' width="42px" height="40px" ></a>
+                <a href="https://twitter.com/login?lang=en"><img src='tw.png' width="42px" height="40px" ></a>
+                <a href="https://web.whatsapp.com/"><img src='wha.png' width="42px" height="40px" ></a>
+            </div>
+        </div>
+
+    <div class="footer-items">
+        <h2>Support</h2>
+        <div class="border"></div>
+        <div class="social-media">
+            <ul>
+            <a href="../../student2/form/student2_form.html"><li> Rate Us Now</li></a>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+            Copyright &copy; travelmania.co   2020. All right reserved.
+    </div>
+</div>
+</div>
+
+
+<!-- JS script -->
+<script >
+
+    var result = document.getElementById("zoomBtn");
+
+    var currentText = 20;
+
+    function bigFont() {
+     ++currentText;
+     result.style.fontSize = currentText + 'px';
+    }
+
+    function smallFont() {
+     --currentText;
+     result.style.fontSize = currentText + 'px';
+    }
+
+    //menu button for scales <700px
+
+    document.querySelector(".menuBtn").addEventListener
+     ("click",()=> document.querySelector(".main-menu").classList.toggle("show"));
+
+           //back to top button
+           var topbutton = document.getElementById("topbtn");
+
+    function backtopFunction(){
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+    }
+        </script>
+
+</body>
+</html>
