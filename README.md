@@ -1,3 +1,3 @@
 # Travelmania - Toursism Website
 
-## Hosted GitHub Page : https://travelmaniaproject.github.io/travel-mania-web/
+## Hosted GitHub Page : https://travelmaniaproject.github.io/travel-mania-web-project/
